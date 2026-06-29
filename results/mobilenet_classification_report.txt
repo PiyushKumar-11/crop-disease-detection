@@ -1,0 +1,25 @@
+MobileNetV2 Transfer Learning
+Test Accuracy  : 91.80%
+Top-3 Accuracy : 99.32%
+
+                                             precision    recall  f1-score   support
+
+              Pepper  bell - Bacterial spot       0.94      0.99      0.96       151
+                     Pepper  bell - healthy       1.00      0.97      0.98       223
+                      Potato - Early blight       0.97      0.97      0.97       150
+                       Potato - Late blight       0.85      0.97      0.91       150
+                           Potato - healthy       0.79      0.96      0.87        24
+                      Tomato Bacterial spot       0.89      0.97      0.93       320
+                        Tomato Early blight       0.95      0.59      0.73       150
+                         Tomato Late blight       0.98      0.88      0.92       287
+                           Tomato Leaf Mold       0.95      0.88      0.91       144
+                  Tomato Septoria leaf spot       0.88      0.90      0.89       267
+Tomato Spider mites Two spotted spider mite       0.93      0.88      0.90       252
+                        Tomato  Target Spot       0.67      0.90      0.77       212
+      Tomato  Tomato YellowLeaf  Curl Virus       0.99      0.96      0.98       482
+                Tomato  Tomato mosaic virus       0.93      0.96      0.95        57
+                             Tomato healthy       0.98      0.94      0.96       240
+
+                                   accuracy                           0.92      3109
+                                  macro avg       0.91      0.91      0.91      3109
+                               weighted avg       0.93      0.92      0.92      3109

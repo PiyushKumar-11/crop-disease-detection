@@ -1,0 +1,15 @@
+{
+  "custom_cnn_accuracy": 93.18,
+  "custom_cnn_top3": 99.58,
+  "mobilenetv2_accuracy": 91.8,
+  "mobilenetv2_top3": 98.46,
+  "img_size": [
+    128,
+    128
+  ],
+  "n_classes": 15,
+  "batch_size": 16,
+  "mobilenetv2_top3_accuracy": 99.32,
+  "mobilenetv2_stage1_best": 86.01,
+  "mobilenetv2_stage2_best": 92.98
+}
