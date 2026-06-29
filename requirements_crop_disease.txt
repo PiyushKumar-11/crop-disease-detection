@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────
+# Crop Disease Detection — CNN Project
+# Requirements File
+# Install all: pip install -r requirements.txt
+# ─────────────────────────────────────────────
+
+# ── Deep Learning ──
+tensorflow==2.15.0          # Keras included — CNN, MobileNetV2, ResNet50
+
+# ── Image processing ──
+Pillow==10.2.0              # Image loading and preprocessing
+opencv-python==4.9.0.80     # Image utilities (optional but useful)
+
+# ── Data & computation ──
+numpy==1.26.4
+pandas==2.1.4
+
+# ── Visualisation ──
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# ── ML evaluation metrics ──
+scikit-learn==1.4.0         # classification_report, confusion_matrix
+
+# ── Dashboard ──
+streamlit==1.31.0
+plotly==5.18.0
+
+# ── Kaggle dataset download (optional) ──
+kaggle==1.6.3               # lets you download dataset via CLI
+                            # Usage: kaggle datasets download emmarex/plantdisease
+
+# ── Utilities ──
+tqdm==4.66.1                # progress bars
+requests==2.31.0            # HTTP requests
